@@ -4,6 +4,7 @@ html
     title= 'Az7ar'
     meta(charset='utf-8')
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/app.css')
   body
     .navbar.navbar-fixed-top
       .navbar-inner
@@ -25,3 +26,7 @@ html
                 - each tag in tagList
                   li
                     a(href=tagUrl(tag)) #{tag}
+    footer.footer
+      .container
+        p#copy
+          | Copyright ©  Az7ar 2013
