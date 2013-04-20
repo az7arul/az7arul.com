@@ -21,6 +21,7 @@ Talk is cheap lets code
 			self.emit('tick');
 			setTimeout(self.startTicking, 1000);
 		}
+	}
 
 	Ticker.prototype = new EventEmitter();
 
@@ -31,7 +32,7 @@ Talk is cheap lets code
 	ticker.on('tick', function(){
 		console.log('got a tick');
 	});
-	}
+	
 
 Explanation
 ------------
