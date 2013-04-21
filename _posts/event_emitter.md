@@ -5,8 +5,6 @@
 	"date" : "4-21-2013"
 }}}
 
-Node Event Emitter
-===================
 
 
 Talk is cheap lets code
