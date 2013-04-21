@@ -3,13 +3,16 @@ html
   head
     title= 'Az7ar'
     meta(charset='utf-8')
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
     link(rel='stylesheet', href='/stylesheets/app.css')
   body
     .navbar.navbar-fixed-top
       .navbar-inner
         .container
-          a.brand(href='/') Hello World :P
+          a.brand#az-brand(href='/')
+            img#az-logo(src='/images/logo.png')
+            span 's Blog
+
     .wrap
       .container
         .row
