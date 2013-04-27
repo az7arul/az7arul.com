@@ -31,6 +31,7 @@
 		console.log('got a tick');
 	});
 	
+<!--more-->
 Output
 ------------
 
