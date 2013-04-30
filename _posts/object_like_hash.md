@@ -9,7 +9,7 @@
 "My crime is that of curiosity"
 ---------------------------------
 
-So, I was going through the source code of [camping](https://github.com/camping/camping) when I found this piece of code that gives you Object like __Hash__. So instead of goind Hash['key'] you can use Hash.key hence the name "Object Like Hash".
+While I was going through the source code of [camping](https://github.com/camping/camping) this piece of code that gives you Object like __Hash__ got my attention. Instead of using Hash['key'] it allows you to use Hash.key hence the name "Object Like Hash".
 
 Code
 ------
