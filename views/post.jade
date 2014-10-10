@@ -12,3 +12,13 @@ block content
       - each tag in post.tags
         a(href=tagUrl(tag))
           span.label.label-info.tag-label #{tag}
+    div#disqus_thread
+  
+    script.
+      var disqus_shortname = 'az7ar'; // Required - Replace example with your forum shortname
+      var disqus_identifier = '#{post.title}';
+      (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();

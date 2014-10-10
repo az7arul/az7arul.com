@@ -76,3 +76,7 @@ body {
 .pagination-right {
   text-align: right;
 }
+
+div.tags {
+	padding-bottom: 20px;
+}
