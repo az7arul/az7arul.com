@@ -14,6 +14,7 @@
 
 	var Ticker = function(){
 		var self = this;
+		EventEmitter.call(self);
 		self.startTicking = function(){
 			self.emit('tick');
 			setTimeout(self.startTicking, 1000);
